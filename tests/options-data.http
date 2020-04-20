@@ -1,0 +1,22 @@
+PUT {{host}}/data/options/1?filters={"ids": [1, 2]}
+Content-Type: application/json
+Accept-Language: ru_RU
+X-PLUGIN-TOKEN: {{token}}
+
+{
+  "comment": {
+    "value": "Comment"
+  },
+  "address": {
+    "postcode": "123456",
+    "city": "AAA",
+    "address_1": null,
+    "address_2": "CCC"
+  },
+  "name": {
+    "firstName": "aaa",
+    "lastName": "bbb"
+  }
+}
+
+###
